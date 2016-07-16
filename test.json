@@ -1,0 +1,28 @@
+{
+  "title":"Cool Product",
+  "description":"This is a really cool Product",
+  "price": 99,
+  "details": {
+    "dimensions":"30x30",
+    "materials":"organic",
+    "color":"blue",
+    "shipping":"free"
+  }
+}
+
+
+
+{
+  "sampleid":"578a67f06e2f289426414279",
+  "sampleid2":"578a85bbac8f22a41c283702",
+  "userid":"578a7dd4d2f44f641e1cbd8c",
+  "userid2":"578a7e0b610ced2026518ff7"
+}
+
+{
+  "title":"Weddings",
+  "description":"beautiful wedding products",
+  "products":["578a67f06e2f289426414279"]
+}
+
+{"weddingid":"578a85bbac8f22a41c283702"}
