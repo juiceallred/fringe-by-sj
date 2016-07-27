@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="fringeApp">
+  <head>
+    <title>Fringe by SJ</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Wedding and Party Decor">
+    <meta name="keywords" content="Weddings,Birthdays,B-days,Parties,Home-made">
+
+<!-- reset css -->
+    <link type="text/css" rel="stylesheet" href="styles/reset/reset.css">
+<!-- fonts css -->
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans" rel="stylesheet">
+<!-- styles -->
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+
+  </head>
+
+  <body ng-controller="mainCtrl">
+    <main role="main">
+      <section class="home-page-top-container">
+        <header>
+
+          <nav>
+            <ul>
+              <li>Weddings</li>
+              <li>Birthdays</li>
+              <li>Bridal Showers</li>
+              <li>Baby Showers</li>
+              <li>Parties</li>
+            </ul>
+            <img ng-src="{{fringe}}">
+          </nav>
+        </header>
+      </section>
+    </main>
+
+
+
+    <!-- Including angular and ui-router then our javascript files. ORDER MATTERS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+
+<!-- Custom Script Files -->
+<script src="./js/app.js"></script>
+<script src="./js/controllers/mainCtrl.js"></script>
+<script src="./js/services/mainSrv.js"></script>
+
+
+  </body>
+</html>

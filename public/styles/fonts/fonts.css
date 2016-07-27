@@ -1,0 +1,10 @@
+@import 'https://fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans';
+
+
+li {
+font-family: 'Arima Madurai', cursive;
+font-weight: 150;
+font-size: 30px;
+}
+
+/*font-family: 'Open Sans', sans-serif;*/

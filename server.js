@@ -60,7 +60,7 @@ app.delete('/api/events/:id', EventsCtrl.delete);
 
 
 
-
+app.use(express.static('public'));
 
 app.listen(3000,function() {
   console.log('listening on port 3000');
