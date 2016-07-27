@@ -4,7 +4,8 @@ var mongoose = require('mongoose'),
 var eventsSchema = new Schema ({
   title: {type: String, required: true, unique: true},
   description: {type: String},
-  products: [{type:Schema.Types.ObjectId, ref: 'Product'}]
+  products: [{type:Schema.Types.ObjectId, ref: 'Product'}],
+  image: {type: String}
 
 });
 

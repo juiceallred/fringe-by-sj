@@ -41,7 +41,7 @@ module.exports = {
   delete: function (req, res) {
     Product.findByIdAndRemove(
       req.params.id,
-      {new: true},
+      {remove: true},
       function(err, result) {
         if(err) return res.status(500).send(err);
         res.send(result);

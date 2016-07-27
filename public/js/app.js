@@ -5,15 +5,15 @@ angular.module('fringeApp',['ui.router'])
           url:'/',
           templateUrl: "../views/home.html"
         })
-        .state('event',{
-          url:'/events/:type',
-          templateUrl: "..views/event.html",
+        .state('events',{
+          url:'/events/:id',
+          templateUrl: "../views/events.html",
           controller: 'eventsCtrl',
           controllerAs: 'vm'
         })
-        .state('product',{
+        .state('products',{
           url: '/products/:id',
-          templateUrl: "..views/product.html",
+          templateUrl: "../views/product.html",
           controller: 'productsCtrl',
           controllerAs: 'vm'
         })

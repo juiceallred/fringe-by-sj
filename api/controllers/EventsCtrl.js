@@ -5,6 +5,7 @@ var Event = require('../models/Events');
 module.exports = {
   read: function (req, res) {
     Event.find(req.query)
+    .populate('products')
     .exec(function(err, result) {
       if (err) return res.status(500).send(err);
       res.send(result);
@@ -40,6 +41,12 @@ module.exports = {
   },
 
   delete: function (req, res) {
-    res.send("I Work");
+    Event.findByIdAndRemove(
+      req.params.id,
+      function(err, result) {
+        if(err) return res.status(500).send(err);
+        res.send(result);
+      }
+    )
   }
 };
