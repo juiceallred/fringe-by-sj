@@ -20,8 +20,7 @@ module.exports = {
   },
 
   create: function (req, res) {
-    var newProduct = new Product(req.body);
-    newProduct.save(function(err, result) {
+      Product.create(req.body, function(err, result) {
       if (err) return res.status(500).send(err);
       res.send(result);
     });

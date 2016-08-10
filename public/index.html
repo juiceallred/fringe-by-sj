@@ -13,20 +13,20 @@
     <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans" rel="stylesheet">
 <!-- styles -->
     <link type="text/css" rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <link type="text/css" rel="stylesheet" href="styles/views/events.css">
 
   </head>
 
   <body ng-controller="mainCtrl">
     <main role="main">
-      <section class="home-page-top-container">
+      <section class="top">
         <header>
+          <img ui-sref="home" ng-src="{{fringe}}">
           <nav>
-            <ul ng-repeat="event in events">
-              <li ng-click="eventDetails(event._id)">{{event.title}}</li>
+            <ul>
+              <li ng-repeat="event in events" ui-sref="events({id:event._id})">{{event.title}}</li>
             </ul>
-            <img ng-src="{{fringe}}">
           </nav>
         </header>
       </section>

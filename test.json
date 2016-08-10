@@ -30,15 +30,130 @@
 ]
 
 
-/*events json*/
+
+  {
+    "__v": 0,
+    "title": "Bridal Showers Decoration",
+    "description": "Make your bridal shower stand out with this",
+    "price": 10,
+    "image": "../../public/img/bridal_product_1.jpg",
+    "_id": "579ab0fecd3758481821218a",
+    "details": {
+      "dimensions": "1 X 1",
+      "materials": "Pinecone and paper",
+      "color": "Brown",
+      "shipping": 5
+    }
+  },
+  {
+"__v": 0,
+"title": "Baby Showers Decoration",
+"description": "Make your baby shower stand out with this",
+"price": 25,
+"image": "../../public/img/baby_product_1.jpg",
+"_id": "579ab1206d155e9c32652270",
+"details": {
+  "dimensions": "3 X 2",
+  "materials": "Fabric",
+  "color": "Pink",
+  "shipping": 5
+}
+},
 {
   "__v": 0,
+  "title": "Graduation Banner",
+  "description": "Celebrate that big acheivement with this banner!",
+  "price": 10,
+  "image": "../../public/img/graduation_product_1.jpg",
+  "_id": "579ab1328af0b92c1fbc6059",
+  "details": {
+    "dimensions": "5 feet",
+    "materials": "Paper",
+    "color": "Black",
+    "shipping": 5
+  }
+}
+
+
+
+/*events json*/
+{
+  "_id": "57980b1ae734815412dda163",
   "title": "Weddings",
   "description": "Beautiful wedding products that will surely make your special day that much more special",
   "image": "../../public/img/event_wedding_outdoor.jpg",
-  "_id": "57980b1ae734815412dda163",
+  "__v": 0,
   "products": [
     "5798087e5f792cc00536b69a",
-    "579809905f792cc00536b69b"
+    "579809905f792cc00536b69b",
+    "57aa8d0ad66f21080cfa2be7",
+    "57aa8d0ad66f21080cfa2be8",
+    "57aa8d0ad66f21080cfa2be9",
+    "57aa8d0ad66f21080cfa2bea",
+    "57aa8d0ad66f21080cfa2beb",
+    "57aa8d0ad66f21080cfa2bec",
+    "57aa8d0ad66f21080cfa2bed",
+    "57aa8d0ad66f21080cfa2bee"
+  ]
+}
+
+{
+  "_id": "579ab1b72a8660101846b389",
+  "title": "Bridal Showers",
+  "description": "Beautiful bridal shower products that will surely make your special day that much more special",
+  "image": "img/event_bridal.jpg",
+  "__v": 0,
+  "products": [
+    "579ab0fecd3758481821218a",
+    "57aa9122a78b99383001215d",
+    "57aa9122a78b99383001215e",
+    "57aa9122a78b99383001215f",
+    "57aa9122a78b993830012160",
+    "57aa9122a78b993830012161",
+    "57aa9122a78b993830012162",
+    "57aa9122a78b993830012163",
+    "57aa9122a78b993830012164",
+    "57aa9122a78b993830012165"
+  ]
+}
+
+{
+  "_id": "579ab1d810f186242c18ea86",
+  "title": "Baby Showers",
+  "description": "Beautiful baby shower products that will surely make your special day that much more special",
+  "image": "../../public/img/event_baby.jpg",
+  "__v": 0,
+  "products": [
+    "579ab1206d155e9c32652270",
+    "57aa94911615846031a4fae5",
+    "57aa94911615846031a4fae6",
+    "57aa94911615846031a4fae7",
+    "57aa94911615846031a4fae8",
+    "57aa94911615846031a4fae9",
+    "57aa94911615846031a4faea",
+    "57aa94911615846031a4faeb",
+    "57aa94911615846031a4faec",
+    "57aa94911615846031a4faed"
+  ]
+}
+
+
+{
+  "_id": "579823730d827e6c2b276fa5",
+  "title": "Birthdays",
+  "description": "Make your birthday celebrations that much more special with these birthday products",
+  "image": "img/event_wedding_outdoor.jpg",
+  "__v": 0,
+  "products": [
+    "579822ba0d827e6c2b276fa2",
+    "57aa985e1ea4f2081f239910",
+    "57aa985e1ea4f2081f239911",
+    "57aa985e1ea4f2081f239912",
+    "57aa985e1ea4f2081f239913",
+    "57aa985e1ea4f2081f239914",
+    "57aa985e1ea4f2081f239915",
+    "57aa985e1ea4f2081f239916",
+    "57aa985e1ea4f2081f239917",
+    "57aa985e1ea4f2081f239918"
   ]
 }

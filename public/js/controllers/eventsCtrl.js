@@ -4,10 +4,15 @@ angular.module('fringeApp')
     $scope.getOneEvent = function() {
       mainSrv.getEventsById($stateParams.id).then(function(response) {
       console.log(response);
+      $scope.event = response
 
     })
   }
 
     $scope.getOneEvent();
+
+
+
+    
 
   })
